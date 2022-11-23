@@ -60,3 +60,4 @@ Q2. Protocols of Application layer
         3. Port number for DHCP is 67, 68.
         4. Command: clear ip dhcp binding {address | * }
 
+Q3. Explain the working of MD5 algorithm
