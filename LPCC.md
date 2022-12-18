@@ -12,7 +12,7 @@ Q1. Construct parsing table for LL and LR parser using the following grammer
 
     B. For LR parser
 
-![LL parsing table](./images/LR%20Parsing%20table.jpg "Title")
+![LR parsing table](./images/LR%20Parsing%20table.jpg "Title")
 
 Q2. Check whether grammer is LR or LL grammer
 
@@ -42,31 +42,30 @@ Q3. First and Follow examples
     Follow(A) = {d}
     Follow(B) = {b}
 
-
 Q4. Closure and goto LR(0) parser example
 
 Closure: It is nothing but a dot in augmented grammar. Example X = Y . K (It only tells that Y is parsed and K is not parsed. So the things on rigth side are not parsed)
 
-Goto: It is like a jump from one state of DFD to other. It is very essential as it is used in parsed table. It is written above the arrow 
+Goto: It is like a jump from one state of DFD to other. It is very essential as it is used in parsed table. It is noted like from I0 state where it went.
 
     Grammar
     E -> E`
     E -> BB
     B -> cB | d
-![LL parsing table](./images/DFD.jpg "Title")
-![LL parsing table](./images/goto.jpg "Title")
+![LR parsing table](./images/DFD.jpg "Title")
+![LR parsing table](./images/goto.jpg "Title")
 
 Q5. Show/present various cononical item set (LR parsing table) for given grammer
 
-![LL parsing table](./images/LR%20Parsing%20table.jpg "Title")
-![LL parsing table](./images/moves%20LR.jpg "Title")
+![LR parsing table](./images/LR%20Parsing%20table.jpg "Title")
+![LR parsing table](./images/moves%20LR.jpg "Title")
 
 Q6. Stack implimentation of LL and LR parser
 
     For LR parser
 
-![LL parsing table](./images/LR%20Parsing%20table.jpg "Title")
-![LL parsing table](./images/moves%20LR.jpg "Title")
+![LR parsing table](./images/LR%20Parsing%20table.jpg "Title")
+![LR parsing table](./images/moves%20LR.jpg "Title")
 
     For LL parser
 
@@ -75,5 +74,9 @@ Q6. Stack implimentation of LL and LR parser
     B -> d | epsilon
 
 ![LL parsing table](./images/LL%20parsing%20example.jpg "Title")
+
+Those who are having difficulty in LR parsing. Please watch
+
+<https://youtu.be/MWX0-_mHYcc>
 
 ## Unit 5 Semantic analysis
