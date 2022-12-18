@@ -6,12 +6,12 @@
 
 Q1. Cocmo Model
 
-Q2. Project Management Life Cycle
+Q2. What is Risk Management?
 
-Q3. Grand Chart
+Q3. Which Collaboration Tools are being still used and why?
 
 ## Unit 6
 
-Q1. What is Risk Management?
+Q1. Project Management Life Cycle
 
-Q2. Which Collaboration Tools are being still used and why?
+Q2. Grand Chart
