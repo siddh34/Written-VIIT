@@ -79,4 +79,97 @@ Those who are having difficulty in LR parsing. Please watch
 
 <https://youtu.be/MWX0-_mHYcc>
 
+Q7.  What are parsers?
+
+    1. It generates IR (Parse tree)
+    2. Performs context-free syntax analysis and error correction
+    3. Types of parsers
+    A.Top-down
+        a. Builds parse tree from root (top) to leaves (bottom)
+        b. may require backtracking
+        c. Includes Recursive Descent parser, Predictive parsers
+    B. Bottom-up
+        a. Builds parse tree from leaves (bottom) to root (up)
+        b. As input is consumed, changes state to encode possibilities (recognize valid prefixes)
+        c. Includes LR parser,LR parser
+
+Q8. Find first and follow
+
+    S → aBDh
+    B → cC
+    C → bC / ∈
+    D → EF
+    E → g / ∈
+    F → f / ∈
+
+    Answer
+
+    First(S) = { a }
+    First(B) = { c }
+    First(C) = { b , ∈ }
+    First(D) = { First(E) – ∈ } ∪ First(F) = { g , f , ∈ }
+    First(E) = { g , ∈ }
+    First(F) = { f , ∈ }
+
+    Follow(S) = { $ }
+    Follow(B) = { First(D) – ∈ } ∪ First(h) = { g , f , h }
+    Follow(C) = Follow(B) = { g , f , h }
+    Follow(D) = First(h) = { h }
+    Follow(E) = { First(F) – ∈ } ∪ Follow(D) = { f , h }
+    Follow(F) = Follow(D) = { h }
+
 ## Unit 5 Semantic analysis
+
+Q1. Difference between syntax and parse trees
+
+![diff between syntax and parse tree](./images/parsers%20vs%20snytaxs.jpg "Title")
+
+Q2. Three address code (if-else)
+
+    if (a > b) && (c > d) 
+        then t = 1 
+        else t = 0
+
+![if else](./images/TAC%20ifelse.jpg "Title")
+
+Q3. Three address code (expression)
+
+![Syntax tree grammar](./images/three%20address%20code%20expr.jpg "Title")
+
+Q4. Syntax tree using SDT or SDD
+
+![Syntax tree grammar](./images/syntax%20tree%20grammar.jpg "Title")
+
+![Syntax tree grammar](./images/syntax%20tree.jpg "Title")
+
+Q5. Infix to postfix using SDT
+
+    SDT for infix to postfix conversion of expression for given grammar :
+
+    Grammar :
+
+    E -> E + T { print(‘+’) }
+
+    E -> E – T { print(‘-‘) }
+
+    E -> T { }
+
+    T -> id { print(‘id’) }
+
+Q6. Explain L-attributes and S-attributes
+
+    S-attributed:
+        1. If every attribute is synthesized, then an SDT is called S-attributed
+        2. If every attribute is synthesized, then an SDT is called S-attributed
+        3. Example
+        L => E n E => E1 + T E => T  T => T1 * F T => F F => ( E ) F => digit
+
+    L-attributed:
+        1. If an attribute of an SDT is synthesized or inherited with some restriction on inherited attributes, it can inherit values from left siblings only
+        2. Attributes of this SDT are evaluated by depth-first
+        3. Semantic actions are placed anywhere in RHS 
+        4. X => ABC {B.P = X.P, B.P = A.P}
+
+## Unit 6 Code Optimization
+
+Q1. 
