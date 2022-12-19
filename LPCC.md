@@ -172,4 +172,97 @@ Q6. Explain L-attributes and S-attributes
 
 ## Unit 6 Code Optimization
 
-Q1. 
+Q1. For a given TAC prepare basic blocks
+
+![BB](./images/BB%20TAC.jpg "Title")
+
+Q2. Generate machine code for experesion  ((a – b) – (c – d)) – (e – (f – (g – h)))
+
+    Three address code
+    o T1 = a- b
+    o T2 = c – d
+    o T3 = T1 – T2
+    o T4 = g – h
+    o T5 = f – T4
+    o T6 = e – T5   
+    o T7 = T3 – T6
+
+    Machine code
+
+    o MOV a, R0
+    o SUB b, R0
+    o MOV c, R1
+    o SUB d, R1
+    o SUB R0, R1
+    o MOV f, R2
+    o MOV g, R1
+    o SUB h, R1
+    o SUB R1, R2
+    o MOV e, R1
+
+Q3. Explain Peephole Optimization
+
+    1. In We replace short sequence of target instructions with a shorter or faster sequence whenever possible
+    2. Each improvement may create opportunities for additional
+improvements
+    3. Peephole optimizations
+        a. Constant folding
+        b. Unreachable Code removal
+        c. Flow control optimization
+        d. Reduction in strength
+        e. Algebraic simplification
+    4. Example
+        a. Few repeat code is removed from the main code
+
+Q4. Explain Loop Optimization
+    Loop Optimization includes
+        a. Code motion
+            Removing variables outside of the loop
+            Example
+            while (i <= limit - 2)
+            becomes
+            t := limit - 2
+            while (i <= t)
+        b. Induction variables
+            The variable inside the loop is eliminated
+            Example
+            for(int i = 0; i < max; i++){
+                result += 2;
+            }
+            becomes
+            for(;result < max*2;result += 2){}
+            return result;
+        c. Reduction in strength
+            Instead of variables constants are used
+            example
+            x = x + x
+            becomes
+            x = x*2
+
+Q5. Which optimization can be done here?
+
+![expr](./images/evaluation%20expr.jpg "Title")
+
+    Answer: COMMON SUBEXPRESSION ELIMINATION
+
+    1. Observe B5 and B6 block
+    2. We are directly eliminating the useless expressions
+    3. The array's number can be updated in block B5 and B6
+    4. The final version should look like this:
+
+![expr](./images/final%20opti.jpg "Title")
+
+Q6. Explain the issues in code generator
+
+    1. The issue of input 
+        a. The code generation phase just proceeds on an assumption that the input is free from all syntactic and state semantic errors, the necessary type checking has taken place
+    2. Issues in design
+        a. Target program
+            We can generate symbolic instructions and use the macro facilities of assemblers in generating code but it needs additional efforts
+        b. Memory Management
+            Mapping the names in the source program to the addressesof data objects is done by the code generator.  
+            If mapping in not efficient then it affects the entire language
+        c. Instruction selction
+            Fast and best instructions to be selected for best functioning
+        d. Register allocation issues
+            Use of registers make the computations faster in comparison to that of memory, so efficient utilization of registers is important
