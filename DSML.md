@@ -117,8 +117,7 @@ Q2. What are the types of visualization? Also write any 4/5 graph and mention th
 
     a. Bar Charts (Used in comparison)
     b. Scatter Plots (Used in clustering and to see variation)
-    c. Pie and Donut Charts (Used for plotting numerical 
-proportions)
+    c. Pie and Donut Charts (Used for plotting numerical proportions)
     d. Box plot (For outliers identification purposes)
 
 Q3. Use of data visualization in medical applications
@@ -142,4 +141,3 @@ excel will automatically recreates the relationships between the features
     4.After Data is represented, we can explore it via the filters which we can apply from the side bar
     5. We can also use the pivot chart option to see the desired chart on our data
     6. In excel pivot charts also work on non pivot table data
-
