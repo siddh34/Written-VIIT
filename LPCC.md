@@ -126,11 +126,11 @@ Q1. Difference between syntax and parse trees
 
 Q2. Three address code (if-else)
 
-    if (a > b) && (c > d) 
+    if (a > b) || (c > d) 
         then t = 1 
         else t = 0
 
-![if else](./images/TAC%20ifelse.jpg "Title")
+![if else](./images/new%20if%20else.jpg "Title")
 
 Q3. Three address code (expression)
 
