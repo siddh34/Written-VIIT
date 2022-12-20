@@ -214,6 +214,7 @@ Q3. Explain Peephole Optimization
         a. Few repeat code is removed from the main code
 
 Q4. Explain Loop Optimization
+
     Loop Optimization includes
         a. Code motion
             Removing variables outside of the loop
