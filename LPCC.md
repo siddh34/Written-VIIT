@@ -203,8 +203,7 @@ Q2. Generate machine code for experesion  ((a – b) – (c – d)) – (e – (
 Q3. Explain Peephole Optimization
 
     1. In We replace short sequence of target instructions with a shorter or faster sequence whenever possible
-    2. Each improvement may create opportunities for additional
-improvements
+    2. Each improvement may create opportunities for additional improvements
     3. Peephole optimizations
         a. Constant folding
         b. Unreachable Code removal
@@ -215,6 +214,7 @@ improvements
         a. Few repeat code is removed from the main code
 
 Q4. Explain Loop Optimization
+
     Loop Optimization includes
         a. Code motion
             Removing variables outside of the loop

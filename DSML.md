@@ -142,3 +142,4 @@ excel will automatically recreates the relationships between the features
     4.After Data is represented, we can explore it via the filters which we can apply from the side bar
     5. We can also use the pivot chart option to see the desired chart on our data
     6. In excel pivot charts also work on non pivot table data
+
