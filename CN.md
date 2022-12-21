@@ -61,6 +61,16 @@ Q2. Protocols of Application layer
         2. There is a lot of information a DHCP server can provide to a host when the host is registering for an IP address with the DHCP server.
         3. Port number for DHCP is 67, 68.
         4. Command: clear ip dhcp binding {address | * }
+        
+Q. 3. Elaborate Three-way Handshake.
+    
+    • In a three-way handshake, the first sender sends the SYN message to the receiver then the receiver sends back the SYN ACK message to confirm tha the message has       been received.
+    • After receiving the SYN ACK message, the sender sends the acknowledgment message to the receiver. 
+    • In this way, the connection is established between the computers.
+    • Once the connection is established, the data will be delivered.
+    • This protocol guarantees the data delivery means that if the data is not received then the TCP will resend the data.
+    • It is a process of initiating and acknowledging a connection.
+    • Once the connection is established, data transfer begins, and when the transmission process is finished, the connection is terminated by the closing of an             established virtual circuit.
 
 ## Unit 5
 
