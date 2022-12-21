@@ -101,28 +101,7 @@ Q3. Explain N-fold cross validation
 
 ## Unit 6 Visualization
 
-Q1. What are best practices for Data Visualization?
-
-    1. Most important is to identify your audience
-    2. Select the target graph
-    3. Label your chart effectively
-    4. Emphasize the important points effectively
-    5. Make use of color 
-    6. Ensure graph is readable
-
-Q2. What are the types of visualization? Also write any 4/5 graph and mention there use.
-
-    1. Exploration, which helps find a story the data is telling you
-    2. Explanation, which tells a story to an audience
-
-    Graphs ->
-
-    a. Bar Charts (Used in comparison)
-    b. Scatter Plots (Used in clustering and to see variation)
-    c. Pie and Donut Charts (Used for plotting numerical proportions)
-    d. Box plot (For outliers identification purposes)
-
-Q3. Use of data visualization in medical applications
+Q1. Use of data visualization in medical applications
 
     1. Today's healthcare systems collect and track huge amount of information around the clock
     2. Modern data visualization tools in healthcare convert complex data into user-friendly visuals that are easy to understand for its people like doctors, patients, or government officers
@@ -134,7 +113,7 @@ Q3. Use of data visualization in medical applications
         c. Analytical for more advanced analytics
     6. BBC website showing recent statistics on COVID-19 cases.
 
-Q4. Pivot table and pivot charts
+Q2. Pivot table and pivot charts
 
     1. Large data analysis is done using PivotTables
     2. PivotTable complements the manner the data is collated, related, summarized and mentioned
