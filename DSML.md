@@ -10,6 +10,8 @@ Q2. Solve using navies bayes (Red domestic SUV) stolen or not
 
 ![navies bayes](./images/navies%20bayes%20question.jpg "Title")
 
+(Total must be total numbers of yes or no as denominator. Do not consider freq of  original column values  total)
+
     P(Red|Yes) = 3/5
     P(Red|No) = 2/5
 
@@ -19,14 +21,14 @@ Q2. Solve using navies bayes (Red domestic SUV) stolen or not
     P(domestic|Yes) = 2/5
     P(domestic|No) = 3/5
 
-    P(SUV|Yes) = 1/4
-    P(SUV|No) = 3/4
+    P(SUV|Yes) = 1/5
+    P(SUV|No) = 3/5
 
-    probability of stolen = 3/5 * 5/10 *  2/5 * 1/4 = 0.15
+    probability of stolen = 3/5 * 5/10 *  2/5 * 1/5 = 0036
 
-    probability of not stolen = 2/5 * 5/10 * 3/5 * 3/4 = 0.09
+    probability of not stolen = 2/5 * 5/10 * 3/5 * 3/5 = 0.072
 
-    By comparision car is stolen
+    By comparision car is not stolen
 
 Q3. Decide root node using gini / entropy
 
