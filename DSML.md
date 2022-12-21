@@ -60,7 +60,7 @@ Q4. Difference between gini and entropy
 | Faster calculation| Slow calculation |
 | Less complex | More complex |
 | We finally see weighted sum of gini value of features | We finally see information gain|
-| Smaller gini values decides the root | Greater entropy decides the root|
+| Smaller gini values decides the root | Greater info gain decides the root|
 
 ## Unit 5 Model evaluation
 
