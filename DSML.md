@@ -139,7 +139,7 @@ Q4. Pivot table and pivot charts
     1. Large data analysis is done using PivotTables
     2. PivotTable complements the manner the data is collated, related, summarized and mentioned
     3. We just have to import the required data to excel and 
-excel will automatically recreates the relationships between the features
+    excel will automatically recreates the relationships between the features
     4.After Data is represented, we can explore it via the filters which we can apply from the side bar
     5. We can also use the pivot chart option to see the desired chart on our data
     6. In excel pivot charts also work on non pivot table data
