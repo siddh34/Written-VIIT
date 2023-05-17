@@ -12,7 +12,7 @@
    For Answer visit:
 
    1. [https://www.tutorialspoint.com/difference-between-deterministic-and-non-deterministic-algorithms](https://www.tutorialspoint.com/difference-between-deterministic-and-non-deterministic-algorithms)
-   2. [https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/](https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/)
+   2. [https://www.geeksforgeeks.org/difference-between-deterministic-and-non-deterministic-algorithms/](https://www.geeksforgeeks.org/difference-between-deterministic-and-non-deterministic-algorithms/)
 3. Explain what is SAT Problem, prove 3-SAT is NP Complete.
 
    For Answer visit:
