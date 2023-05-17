@@ -2,23 +2,20 @@
 
 #### Unit 4 : Intractable Problems and NP-Completeness
 
-1. ###### Define and Explain P, NP, NP Complete and NP Hard.
+1. Define and Explain P, NP, NP Complete and NP Hard.
 
    For Answer visit:
 
-
-   1. [https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/]([https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/]())
-2. ###### What is deterministic and non-deterministic algorithm?
+   1. [https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/](https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/)
+2. What is deterministic and non-deterministic algorithm?
 
    For Answer visit:
 
-
-   1. [https://www.tutorialspoint.com/difference-between-deterministic-and-non-deterministic-algorithms]([https://www.tutorialspoint.com/difference-between-deterministic-and-non-deterministic-algorithms]())
+   1. [https://www.tutorialspoint.com/difference-between-deterministic-and-non-deterministic-algorithms](https://www.tutorialspoint.com/difference-between-deterministic-and-non-deterministic-algorithms)
    2. [https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/](https://www.geeksforgeeks.org/types-of-complexity-classes-p-np-conp-np-hard-and-np-complete/)
-3. ###### Explain what is SAT Problem, prove 3-SAT is NP Complete.
+3. Explain what is SAT Problem, prove 3-SAT is NP Complete.
 
    For Answer visit:
-
 
    1. [https://en.wikipedia.org/wiki/Boolean_satisfiability_problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem)
    2. [Proof that SAT is NP Complete - GeeksforGeeks](https://www.geeksforgeeks.org/proof-that-sat-is-np-complete/)
@@ -52,17 +49,15 @@
    *By constructing the 3-SAT formula in this way, we have a polynomial-time reduction from CIRCUIT-SAT to 3-SAT. Therefore, 3-SAT is NP-complete.*
 
    *Since we have shown that 3-SAT is in NP and any problem in NP can be reduced to 3-SAT, we have established the NP-completeness of 3-SAT.*
-4. ###### Explain CDP and prove CDP is NP Complete.
+4. Explain CDP and prove CDP is NP Complete.
 
    For Answer visit:
 
-
    1. [Clique problem - Wikipedia](https://en.wikipedia.org/wiki/Clique_problem)
    2. [Proof that Clique Decision problem is NP-Complete - GeeksforGeeks](https://www.geeksforgeeks.org/proof-that-clique-decision-problem-is-np-complete/)
-5. ###### Show Hamiltonian Cycle problem in NP Complete
+5. Show Hamiltonian Cycle problem in NP Complete
 
    For Answer visit
-
 
    1. [https://www.geeksforgeeks.org/proof-that-hamiltonian-cycle-is-np-complete/](https://www.geeksforgeeks.org/proof-that-hamiltonian-cycle-is-np-complete/)
 
